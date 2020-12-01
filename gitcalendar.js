@@ -244,7 +244,7 @@ $(function () {
       window.onscroll = function () {
         $(".angle-wrapper").hide();
       };
-      console.log(calendar.positionplusdata);
+      // console.log(calendar.positionplusdata);
 
       function addlastmonth() {
         if (calendar.thisdayindex === 0) {
