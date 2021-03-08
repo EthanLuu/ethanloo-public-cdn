@@ -53,8 +53,9 @@
   line-height: 1.4; /*控制标题的行高*/
 }
 #recent-posts > .recent-post-item > .recent-post-info > .article-meta-wrap {
-  margin-bottom: 0.25rem; /*控制标题meta信息的底部间距*/
+  margin-bottom: 0.2rem; /*控制标题meta信息的底部间距*/
 }
+
 @media screen and (max-width: 768px) {
   #recent-posts > .recent-post-item {
     width: 100%; /*控制手机自适应*/
