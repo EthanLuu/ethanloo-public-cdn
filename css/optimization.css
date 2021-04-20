@@ -1,7 +1,9 @@
 #recent-posts > .recent-post-item {
   content-visibility: auto;
-  contain-intrinsic-size: 280px;
+  height: 18rem;
+  contain-intrinsic-size: 18rem;
 }
+
 .app-refresh {
   position: fixed;
   top: -2.2rem;
