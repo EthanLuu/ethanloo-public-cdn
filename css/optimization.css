@@ -4,6 +4,10 @@
   contain-intrinsic-size: 18em;
 }
 
+#recent-posts > .recent-post-item:hover {
+  box-shadow: 0 3px 8px 6px rgba(212, 212, 212, 0.05);
+}
+
 .app-refresh {
   position: fixed;
   top: -2.2rem;
@@ -36,4 +40,9 @@ html {
     0 1.8px 3.5px rgb(0 0 0 / 16%), 0 3.7px 7.3px rgb(0 0 0 / 20%),
     0 10px 15px rgb(0 0 0 / 28%);
   backdrop-filter: blur(3px);
+}
+
+:root {
+  --card-box-shadow: 0 3px 8px 6px rgba(232, 236, 246, 0.10);
+  --card-hover-box-shadow: 0 3px 8px 6px rgba(152, 231, 255, 0.4);
 }
