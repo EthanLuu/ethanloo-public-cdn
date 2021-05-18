@@ -1,7 +1,6 @@
 #recent-posts > .recent-post-item {
   content-visibility: auto;
   height: 18em;
-  contain-intrinsic-size: 18em;
 }
 
 #recent-posts > .recent-post-item:hover {
@@ -43,6 +42,14 @@ html {
 }
 
 :root {
-  --card-box-shadow: 0 3px 8px 6px rgba(232, 236, 246, 0.10);
+  --card-box-shadow: 0 3px 8px 6px rgba(232, 236, 246, 0.1);
   --card-hover-box-shadow: 0 3px 8px 6px rgba(152, 231, 255, 0.4);
+}
+
+body {
+  font-family: 'PingFang SC', 'Noto Sans SC';
+}
+
+container pre {
+  font-family: 'JetBrains Mono', 'Roboto Mono', 'PingFang SC' !important;
 }
